@@ -5,6 +5,10 @@
 
 .banner {
   position:relative;
+  background-size: cover;
+  background-position: center;
+  height: 100vh;
+  margin-bottom: 20px;
 }
 
 .banner::before {
@@ -19,23 +23,14 @@
 
 #berlino {
   background-image: url(../img/berlino.jpg);
-  background-size: cover;
-  background-position: center;
-  height: 100vh;
 }
 
 #parigi {
   background-image: url(../img/parigi.jpg);
-  background-size: cover;
-  background-position: center;
-  height: 100vh;
 }
 
 #copenhagen {
   background-image: url(../img/copenhagen.jpg);
-  background-size: cover;
-  background-position: center;
-  height: 100vh;
 }
 
 .content {
